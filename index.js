@@ -14,6 +14,8 @@ app.use(cors())
 
 app.use(express.json())
 
+app.use(express.static("./src/public"))
+
 app.use("/api", indexRouter)
 app.use("/api", urlsRouter)
 
