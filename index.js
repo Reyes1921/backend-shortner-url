@@ -1,8 +1,8 @@
 import dotenv from "dotenv"
 import express from "express"
 import connectDB from "./database/config.js"
-import urlsRouter from "./routes/urls.js"
-import indexRouter from "./routes/index.js"
+import urlsRouter from "./src/routes/urls.js"
+import indexRouter from "./src/routes/index.js"
 import cors from "cors"
 dotenv.config({path: "./.env"})
 

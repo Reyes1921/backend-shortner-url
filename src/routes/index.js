@@ -1,5 +1,5 @@
 import express from "express"
-import Url from "../models/Url.js"
+import Url from "../../models/Url.js"
 const router = express.Router()
 
 router.get("/:urlId", async (req, res) => {
