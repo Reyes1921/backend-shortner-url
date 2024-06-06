@@ -12,12 +12,10 @@ router.get("/:urlId", async (req, res) => {
         },
         {$inc: {clicks: 1}}
       )
-      // return res.redirect(url.originalUrl)
-      return res.status(200).json(url.originalUrl)
-    } else res.status(404).json("Url Not found")
+      return res.redirect(url.originalUrl)
+    } else res.redirect(process.env.BASE_FRONT)
   } catch (err) {
-    console.log(err)
-    res.status(500).json("Server Error")
+    res.redirect(process.env.BASE_FRONT)
   }
 })
 
