@@ -9,7 +9,7 @@ API REST para acortar enlaces al más corto posible, pruébelo aquí [shortner-u
 
 - `POST` https://rjrr.vercel.app/short
 
-`requieren un body con este contenido`
+`requiere un body con este contenido`
 
 ```
 
@@ -49,7 +49,7 @@ API REST para acortar enlaces al más corto posible, pruébelo aquí [shortner-u
 
 </div>
 
-# Contact
+# Contacto
 
 - E-mail address: reyesjrondon@gmail.com
 - [Portfolio](https://reyesrondon.vercel.app/)
