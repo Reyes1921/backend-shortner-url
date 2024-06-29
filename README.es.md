@@ -3,9 +3,9 @@
 
 # Shortner Url (Backend)
 
-API REST para acortar enlaces al más corto posible, pruébelo aquí [shortner-url-fast](https://shortner-url-fast.vercel.app/)
+API para acortar enlaces al más corto posible, pruébelo aquí [shortner-url-fast](https://shortner-url-fast.vercel.app/)
 
-## Endpoints
+## 📍 Endpoints
 
 - `POST` https://rjrr.vercel.app/short
 
@@ -31,15 +31,17 @@ API REST para acortar enlaces al más corto posible, pruébelo aquí [shortner-u
  "__v": 0
 ```
 
-## Obtener el enlace acortado
+## 🔗 Obtener el enlace acortado
 
 `https://rjrr.vercel.app/:urlId`
 
-## Tecnologías utilizadas
+## 👨‍💻 Tecnologías utilizadas
 
-- NodeJs
-- Express
-- MongoDB
+- [**NodeJs**](https://nodejs.org/es) - Entorno de ejecución de JavaScript multiplataforma y de código abierto.
+- [**Express**](https://expressjs.com/es/) - Infraestructura web rápida, minimalista y flexible para Node.js.
+- [**MongoDB**](https://www.mongodb.com/) - Base de datos documental no relacional que admite el almacenamiento tipo JSON.
+- [**mongoose**](https://mongoosejs.com/) - Elegante modelado de objetos mongodb para node.js.
+- [**nanoid**](https://www.npmjs.com/package/nanoid) - Un generador de ID de cadena único, pequeño, seguro y de URL amigable para JavaScript.
 
 <div align="center">
 
@@ -49,8 +51,8 @@ API REST para acortar enlaces al más corto posible, pruébelo aquí [shortner-u
 
 </div>
 
-# Contacto
+# ✉️ Contacto
 
-- E-mail address: reyesjrondon@gmail.com
-- [Portfolio](https://reyesrondon.vercel.app/)
+- Correo electrónico: reyesjrondon@gmail.com
+- [Portafolio](https://www.reyesrondon.dev/es)
 - [Linkedin](https://www.linkedin.com/in/reyes-rondon/?locale=en_US)
